@@ -71,7 +71,7 @@ python main.py --detect \
 ### 1. 模型训练收敛情况  
 模型在测试集上的 **F1 分数最终达到 92.3%** ，训练曲线显示收敛稳定：  
 
-![F1分数变化曲线](https://github.com/你的用户名/你的仓库名/blob/main/runs/train/yolov8n_steel_defect/BoxF1_curve.png?raw=true)
+![F1分数变化曲线](runs/train/yolov8n_steel_defect/BoxF1_curve.png)
 
 
 ### 2. 缺陷检测实际效果  
