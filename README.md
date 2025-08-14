@@ -77,7 +77,7 @@ python main.py --detect \
 ### 2. 缺陷检测实际效果  
 验证集图片的检测可视化，**绿色框为模型预测的缺陷位置**：  
 
-![验证集检测效果](runs/train/yolov8n_steel_defect/val_batch0_pred.png)  
+![验证集检测效果](runs/train/yolov8n_steel_defect/val_batch0_pred.png)   
 
 
 ### 3. 各类缺陷检测精度对比  
