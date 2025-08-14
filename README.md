@@ -86,17 +86,10 @@ python main.py --detect \
 ![类别混淆矩阵](runs/train/yolov8n_steel_defect/confusion_matrix.png)  
 
 
-## 🔧 扩展开发  
-
-### 模型优化  
-- **骨干网络替换**：修改 `src/model/yolov8_ghost.py`，适配轻量级（如 MobileNet）或高性能（如 ResNet）需求。  
-- **数据增强扩展**：在 `src/data_prep.py` 中添加自定义增强策略（如随机旋转、亮度变换）。  
-
-
 ### 部署集成  
 1. **ONNX 模型导出**：  
    ```bash
    python src/export_onnx.py --weights runs/train/exp/weights/best.pt
    ```  
 
-2. **产线落地**：结合 TensorRT 加速推理，或部署到边缘计算设备（如 Jetson Xavier）。  
+2. **产线落地**：结合 TensorRT 加速推理，或部署到边缘计算设备。  
