@@ -92,4 +92,4 @@ python main.py --detect \
    python src/export_onnx.py --weights runs/train/exp/weights/best.pt
    ```  
 
-2. **产线落地**：结合 TensorRT 加速推理，或部署到边缘计算设备。  
+2. **项目落地**：结合 TensorRT 加速推理，部署到边缘计算设备。  
