@@ -1,0 +1,7 @@
+train: D:/defect_demo/data/raw/train/images
+val: D:/defect_demo/data/raw/valid/images
+test: D:/defect_demo/data/raw/test/images
+
+nc: 4
+names: ['crazing', 'inclusion', 'patches', 'pitted_surface']
+    
